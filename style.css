@@ -1,0 +1,35 @@
+body {
+    background-color: #85cff7;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+    color: white;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 90px;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.morpion {
+    width: min-content;
+    padding:2rem;
+    background-color: beige;
+    margin-left:50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    grid-gap: 5px;
+}
+
+.croix{
+    font-size: 2em;
+}
